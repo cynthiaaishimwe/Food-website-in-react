@@ -1,0 +1,131 @@
+
+ .food-website {
+    font-family: Arial, sans-serif;
+  }
+  
+  .navbar {
+    color: black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+  }
+  
+  .nav-links {
+    list-style: none;
+    display: flex;
+    gap: 3rem;
+  }
+  
+  .nav-links li {
+    cursor: pointer;
+    font-size: 20px;
+  }
+  
+  .auth-buttons {
+    display: flex;
+    gap: 1rem;
+  }
+  
+  .login-button,
+  .signup-button {
+    background-color: red; 
+    color: white;
+    border: none;
+    padding: 8px 30px;
+    border-radius: 20px;
+    font-size: 20px;
+  }
+  
+  .content {
+    padding: 2rem;
+  }
+  .logo{
+    font-size: 30px;
+  }
+  .login{
+    color: red;
+    font-size: 20px;
+  }
+   .food-website{
+    background-color: #fce8e8;
+   } 
+
+
+
+
+.banner {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 2rem;
+}
+
+.banner-text {
+  flex: 1;
+  text-align: center;
+}
+
+.title {
+  color: red;
+  font-size: 40px;
+  font-weight: bold;
+}
+
+.text {
+  font-size: 18px;
+  margin-top: 10px;
+}
+
+.image-container {
+  flex: 1;
+  text-align: center;
+}
+
+.image {
+  width: 150%;
+  height: 100%;
+  margin-left: 50%;
+}
+.Buy{
+  background-color: red;
+  color: white;
+  border: none;
+  padding: 15px 50px;
+  border-radius: 20px;
+  font-size: 20px;
+  margin-top: 20px;
+}
+
+.features {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 2rem;
+  border: 2px solid white;
+  padding: 60px;
+  background-color: white;
+  margin: 40px 40px;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.8);
+  border-radius: 40px;
+}
+
+.feature {
+  text-align: center;
+  flex: 2;
+}
+
+.feature-title {
+  font-size: 20px;
+  color: red;
+  margin-bottom: 0.5rem;
+}
+
+.feature-description {
+  font-size: 16px;
+}
+
+
+
+
+
+  

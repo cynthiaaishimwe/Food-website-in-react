@@ -1,0 +1,66 @@
+
+
+.categories-container {
+    background-color: #f9f9f9;
+    padding: 2rem;
+    text-align: center;
+  }
+  
+  .title {
+    font-size: 30px;
+    font-weight: bold;
+    color: black;
+  }
+  
+  .highlighted {
+    color: red;
+  }
+  
+  .paragraph {
+    font-size: 18px;
+    color: grey; 
+    margin-top: 1rem;
+   
+  }
+  
+  .image-section {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1rem;
+    margin-top: 2rem;
+  }
+  
+  .category {
+    text-align: center;
+  }
+  
+  .category img {
+    width: 60%;
+    height: 80%; 
+  }
+  
+  .category strong {
+    font-weight: bolder;
+    margin-top: 1rem;
+    font-size: 20px;
+    color: black;
+  }
+  
+  .order-now {
+    color: red;
+    font-weight: bold;
+  }
+  
+  .Headings {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+
+   
+  
+  
+
+  
+  
+  

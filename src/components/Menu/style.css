@@ -1,0 +1,124 @@
+
+.menu-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 60px;
+}
+.regular {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.title-description-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.menu-title {
+    color: red;
+    font-size: 50px;
+    margin-bottom: 10px;
+}
+
+.menu-description {
+    font-size: 30px;
+}
+
+
+
+.see-all-button {
+    background-color: red; 
+    color: white;
+    border: none;
+    padding: 10px 40px;
+    border-radius: 20px;
+    font-size: 20px;
+
+}
+
+
+.image-container {
+   display: grid;
+    grid-template-columns: repeat(3,2fr);
+    gap: 50px;
+}
+
+
+
+.menu-image {
+    width: 60%;
+    height: 80%;
+    
+}
+
+.price-container {
+    margin-top: 20px;
+}
+
+.buy-now-button {
+    background-color: red;
+    border: none;
+    color: #ffffff;
+    padding: 15px 25px;
+    border-radius: 10px;
+    font-weight: bold;
+}
+.Chicken-fry img{
+   width: 100%;
+   
+}
+.Chicken-Pizza img{
+    width: 50%;
+}
+.Chicken-burger img{
+    width: 44%;
+}
+.Grill-Sandwich img{
+    width: 42%;
+}
+.Taco-traifi img{
+    width: 100%;
+}
+.Noodle-Ramen img{
+    width: 52%;
+}
+
+
+ .single-image-container img.chicken-image {
+    width: 100%;
+    height: 20rem;
+    margin-top: 20%;
+    background-color: hsl(194, 41%, 19%);
+    padding: 100px 100px;
+    border-radius: 5%;
+
+}
+
+.double-image-container img.waffle-image {
+    width: 70%;
+    height: 20rem;
+    margin-left: 80%;
+    padding: 30px 80px;
+    background-color: #7c4700;
+    border-radius: 5%;
+    margin-top: 40px;
+}
+
+.double-image-container img.salad-image {
+    width: 70%;
+    height: 20rem;
+    margin-left: 80%;
+    padding:  30px 80px;
+    background-color: #f9e076;
+    border-radius: 5%;
+    margin-top: 40px;
+}
+
+
+
+
